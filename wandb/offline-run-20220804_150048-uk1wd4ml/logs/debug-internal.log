@@ -1,0 +1,30 @@
+2022-08-04 15:00:49,491 INFO    MainThread:2648835 [internal.py:wandb_internal():91] W&B internal server running at pid: 2648835, started at: 2022-08-04 15:00:49.491396
+2022-08-04 15:00:49,493 INFO    WriterThread:2648835 [datastore.py:open_for_write():77] open: /home/ivms/local_disk/dalle/wandb/offline-run-20220804_150048-uk1wd4ml/run-uk1wd4ml.wandb
+2022-08-04 15:00:49,495 DEBUG   HandlerThread:2648835 [handler.py:handle_request():120] handle_request: run_start
+2022-08-04 15:00:49,499 DEBUG   HandlerThread:2648835 [meta.py:__init__():34] meta init
+2022-08-04 15:00:49,500 DEBUG   HandlerThread:2648835 [meta.py:__init__():48] meta init done
+2022-08-04 15:00:49,500 DEBUG   HandlerThread:2648835 [meta.py:probe():190] probe
+2022-08-04 15:00:49,506 DEBUG   HandlerThread:2648835 [git.py:repo():33] git repository is invalid
+2022-08-04 15:00:49,506 DEBUG   HandlerThread:2648835 [meta.py:_save_pip():52] save pip
+2022-08-04 15:00:49,507 DEBUG   HandlerThread:2648835 [meta.py:_save_pip():66] save pip done
+2022-08-04 15:00:49,507 DEBUG   HandlerThread:2648835 [meta.py:probe():231] probe done
+2022-08-06 00:01:29,642 INFO    SenderThread:2648835 [sender.py:finish():884] shutting down sender
+2022-08-06 00:01:30,273 INFO    HandlerThread:2648835 [handler.py:finish():624] shutting down handler
+2022-08-06 00:01:30,273 ERROR   MainThread:2648835 [internal.py:wandb_internal():158] Thread WriterThread:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/wandb/sdk/internal/internal_util.py", line 54, in run
+    self._run()
+  File "/usr/local/python3/lib/python3.6/site-packages/wandb/sdk/internal/internal_util.py", line 95, in _run
+    self._process(record)
+  File "/usr/local/python3/lib/python3.6/site-packages/wandb/sdk/internal/internal.py", line 313, in _process
+    self._wm.write(record)
+  File "/usr/local/python3/lib/python3.6/site-packages/wandb/sdk/internal/writer.py", line 35, in write
+    self._ds.write(record)
+  File "/usr/local/python3/lib/python3.6/site-packages/wandb/sdk/internal/datastore.py", line 253, in write
+    ret = self._write_data(s)
+  File "/usr/local/python3/lib/python3.6/site-packages/wandb/sdk/internal/datastore.py", line 229, in _write_data
+    LEVELDBLOG_MIDDLE,
+  File "/usr/local/python3/lib/python3.6/site-packages/wandb/sdk/internal/datastore.py", line 192, in _write_record
+    self._fp.write(s)
+OSError: [Errno 28] No space left on device
+2022-08-06 00:01:32,448 INFO    MainThread:2648835 [internal.py:handle_exit():78] Internal process exited

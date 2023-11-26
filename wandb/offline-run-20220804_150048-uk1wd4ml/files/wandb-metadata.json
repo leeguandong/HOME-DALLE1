@@ -1,0 +1,21 @@
+{
+    "os": "Linux-4.18.0-80.11.1.el7.centos.sn11.x86_64-x86_64-with-centos-7.3.1611-Core",
+    "python": "3.6.6",
+    "heartbeatAt": "2022-08-04T07:00:49.500187",
+    "startedAt": "2022-08-04T07:00:48.594909",
+    "docker": null,
+    "gpu": "GeForce GTX 1080 Ti",
+    "gpu_count": 2,
+    "cpu_count": 40,
+    "cuda": "10.0.130",
+    "args": [
+        "--local_rank=0",
+        "--deepspeed"
+    ],
+    "state": "running",
+    "program": "train_dalle.py",
+    "codePath": "train_dalle.py",
+    "host": "amtp-prd-istraining-180655-0",
+    "username": "ivms",
+    "executable": "/usr/local/python3/bin/python3.6"
+}
