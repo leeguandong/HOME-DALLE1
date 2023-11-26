@@ -1,0 +1,10 @@
+transformers
+tokenizers
+wandb
+youtokentome
+ftfy
+webdataset
+taming-transformers
+deepspeed
+axial_positional_embedding
+
