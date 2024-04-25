@@ -1,7 +1,7 @@
-# DALL-E in Pytorch
+# HOME-DALLE1
 
-中文家装家具场景的dalle1的权重地址：链接：https://pan.baidu.com/s/1RpgpAj67bnBedp6wGIVO3Q?pwd=7774 
-提取码：7774
+中文家装家具场景的dalle1模型， 权重地址：链接：https://pan.baidu.com/s/1RpgpAj67bnBedp6wGIVO3Q?pwd=7774 
+提取码：7774     
 
 <a href="https://colab.research.google.com/drive/11V2xw1eLPfZvzW8UQyTUhqCEU71w6Pr4?usp=sharing">
   <img alt="Run inference on the Afiaka checkpoint in Colab" src="https://colab.research.google.com/assets/colab-badge.svg">
