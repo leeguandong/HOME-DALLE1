@@ -1,4 +1,4 @@
-# HOMEDALLE1
+# HOME-DALLE1
 
 中文家装家具场景的dalle1模型， 权重地址：链接：https://pan.baidu.com/s/1RpgpAj67bnBedp6wGIVO3Q?pwd=7774 
 提取码：7774     
